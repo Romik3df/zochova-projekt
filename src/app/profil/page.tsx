@@ -2,16 +2,17 @@
 
 
 
+
 import Typography from '@mui/material/FormLabel';
 import Container from '@mui/material/FormLabel';
 
-export const metadata = {title: "Podmienky | Zochova"};
+export const metadata = {title: "Profil | Zochova"};
 
 
-export default function About() {
+export default function ProfileList() {
   return (
         <Container>
-            <Typography>stránka Podmienky</Typography>
+            <Typography>Zoznam profilov</Typography>
         </Container>
 
   );

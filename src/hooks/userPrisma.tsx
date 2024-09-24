@@ -5,13 +5,13 @@
 import Typography from '@mui/material/FormLabel';
 import Container from '@mui/material/FormLabel';
 
-export const metadata = {title: "Podmienky | Zochova"};
+export const metadata = {title: "userPrisma| Zochova"};
 
 
-export default function About() {
+export default function userPrisma() {
   return (
         <Container>
-            <Typography>stránka Podmienky</Typography>
+            <Typography>userPrisma</Typography>
         </Container>
 
   );

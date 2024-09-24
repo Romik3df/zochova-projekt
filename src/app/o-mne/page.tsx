@@ -1,4 +1,4 @@
-// scr/app/page.tsx
+// src/app/page.tsx
 
 
 
