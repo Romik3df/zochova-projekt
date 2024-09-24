@@ -6,13 +6,13 @@
 import Typography from '@mui/material/FormLabel';
 import Container from '@mui/material/FormLabel';
 
-export const metadata = {title: "Príspevky | Zochova"};
+export const metadata = {title: "Notifikśácie | Zochova"};
 
 
-export default function ContributionsList() {
+export default function NotificationList() {
   return (
         <Container>
-            <Typography>Príspevky</Typography>
+            <Typography>Notifikácie</Typography>
         </Container>
 
   );
