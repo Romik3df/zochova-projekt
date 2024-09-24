@@ -5,13 +5,13 @@
 import Typography from '@mui/material/FormLabel';
 import Container from '@mui/material/FormLabel';
 
-export const metadata = {title: "O mne | Zochova"};
+export const metadata = {title: "NavBar| Zochova"};
 
 
-export default function About() {
+export default function NavBar() {
   return (
         <Container>
-            <Typography>O mne</Typography>
+            <Typography>NavBar</Typography>
         </Container>
 
   );
