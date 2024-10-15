@@ -28,22 +28,22 @@ export default function NavBar() {
         <BottomNavigationAction 
           label="Domov" 
           icon={<HomeIcon />} 
-          onClick={() => handleNavigation(0, '/')} 
+          onClick={() => handleNavigation(0, 'src/app/page.tsx')} 
         />
         <BottomNavigationAction 
           label="Príspevok" 
           icon={<PostIcon />} 
-          onClick={() => handleNavigation(1, 'C')} 
+          onClick={() => handleNavigation(1, 'src/app/post/page.tsx')} 
         />
         <BottomNavigationAction 
           label="Registrácia" 
           icon={<RegisterIcon />} 
-          onClick={() => handleNavigation(2, '/auth/register')} 
+          onClick={() => handleNavigation(2, 'rc/app/SignUp/page.tsxr')} 
         />
         <BottomNavigationAction 
           label="Prihlásenie" 
           icon={<LoginIcon />} 
-          onClick={() => handleNavigation(3, '/auth/login')} 
+          onClick={() => handleNavigation(3, 'src/app/LogIn/page.tsx')} 
         />
       </BottomNavigation>
     </Box>

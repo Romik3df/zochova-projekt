@@ -1,4 +1,4 @@
- // Prihlasenie (Login) page
+//rc/app/LogIn/page.tsx
 
 
 
