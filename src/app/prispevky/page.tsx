@@ -1,4 +1,4 @@
-// src/app/page.tsx
+ // Prispevky (Posts) page
 
 
 

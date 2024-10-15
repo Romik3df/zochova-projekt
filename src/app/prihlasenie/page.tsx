@@ -1,4 +1,4 @@
-// src/app/page.tsx
+ // Prihlasenie (Login) page
 
 
 
@@ -8,10 +8,10 @@ import Container from '@mui/material/FormLabel';
 export const metadata = {title: "O mne | Zochova"};
 
 
-export default function About() {
+export default function LogIn() {
   return (
         <Container>
-            <Typography>O mne</Typography>
+            <Typography>prihlasenie</Typography>
         </Container>
 
   );

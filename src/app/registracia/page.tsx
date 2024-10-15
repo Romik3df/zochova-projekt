@@ -1,4 +1,4 @@
-// src/app/page.tsx
+// Registracia (Register) page
 
 
 

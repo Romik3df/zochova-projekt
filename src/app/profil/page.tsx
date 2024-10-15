@@ -1,4 +1,4 @@
-// src/app/page.tsx
+// Profil(Posts) page
 
 
 
@@ -9,10 +9,10 @@ import Container from '@mui/material/FormLabel';
 export const metadata = {title: "Profil | Zochova"};
 
 
-export default function ProfileList() {
+export default function Profile() {
   return (
         <Container>
-            <Typography>Zoznam profilov</Typography>
+            <Typography>profil</Typography>
         </Container>
 
   );
