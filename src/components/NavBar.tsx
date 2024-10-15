@@ -28,7 +28,7 @@ export default function NavBar() {
         <BottomNavigationAction 
           label="Domov" 
           icon={<HomeIcon />} 
-          onClick={() => handleNavigation(0, 'Home')} 
+          onClick={() => handleNavigation(0, '/')} 
         />
         <BottomNavigationAction 
           label="Príspevok" 
