@@ -38,12 +38,12 @@ export default function NavBar() {
         <BottomNavigationAction 
           label="Registrácia" 
           icon={<RegisterIcon />} 
-          onClick={() => handleNavigation(2, '/')} 
+          onClick={() => handleNavigation(2, '/registracia')} 
         />
         <BottomNavigationAction 
           label="Prihlásenie" 
           icon={<LoginIcon />} 
-          onClick={() => handleNavigation(3, '/')} 
+          onClick={() => handleNavigation(3, '/prihlasenie')} 
         />
       </BottomNavigation>
     </Box>
