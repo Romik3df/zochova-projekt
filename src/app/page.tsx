@@ -1,15 +1,14 @@
-// scr/app/page.tsx
+// src/app/page.tsx
 
+import Container from "@mui/material/Container";
+import Typography from "@mui/material/Typography";
 
+export const metadata = { title: "Home | Instabenger"}
 
-import Typography from '@mui/material/FormLabel';
-
-
-export const metadata = {title: "Domov | Zochova"};
-
-
-export default function home() {
+export default function Home() {
   return (
-      <Typography>Domovská stránka</Typography>
+    <Container>
+      <Typography>Home</Typography>
+    </Container>
   );
 }
