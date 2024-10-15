@@ -1,19 +1,13 @@
-// Profil(Posts) page
+// src/app/profile/page.tsx
 
+import * as React from 'react';
+import Typography from "@mui/material/Typography";
+import Container from "@mui/material/Container";
 
-
-
-import Typography from '@mui/material/FormLabel';
-import Container from '@mui/material/FormLabel';
-
-export const metadata = {title: "Profil | Zochova"};
-
-
-export default function Profile() {
+export default function ProfileList() {
   return (
-        <Container>
-            <Typography>profil</Typography>
-        </Container>
-
+    <Container>
+      <Typography>Zoznam profilov</Typography>
+    </Container>
   );
 }

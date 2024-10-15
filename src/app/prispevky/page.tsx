@@ -1,19 +1,13 @@
- // Prispevky (Posts) page
+// src/app/post/page.tsx
 
+import * as React from 'react';
+import Typography from "@mui/material/Typography";
+import Container from "@mui/material/Container";
 
-
-
-import Typography from '@mui/material/FormLabel';
-import Container from '@mui/material/FormLabel';
-
-export const metadata = {title: "Príspevky | Zochova"};
-
-
-export default function ContributionsList() {
+export default function PostList() {
   return (
-        <Container>
-            <Typography>Príspevky</Typography>
-        </Container>
-
+    <Container>
+      <Typography>Príspevok</Typography>
+    </Container>
   );
 }

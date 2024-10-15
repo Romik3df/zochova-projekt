@@ -33,7 +33,7 @@ export default function NavBar() {
         <BottomNavigationAction 
           label="Príspevok" 
           icon={<PostIcon />} 
-          onClick={() => handleNavigation(1, '/post')} 
+          onClick={() => handleNavigation(1, 'C')} 
         />
         <BottomNavigationAction 
           label="Registrácia" 
