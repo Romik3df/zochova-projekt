@@ -33,17 +33,17 @@ export default function NavBar() {
         <BottomNavigationAction 
           label="Príspevok" 
           icon={<PostIcon />} 
-          onClick={() => handleNavigation(1, 'PostList')} 
+          onClick={() => handleNavigation(1, '/')} 
         />
         <BottomNavigationAction 
           label="Registrácia" 
           icon={<RegisterIcon />} 
-          onClick={() => handleNavigation(2, 'AddList')} 
+          onClick={() => handleNavigation(2, '/')} 
         />
         <BottomNavigationAction 
           label="Prihlásenie" 
           icon={<LoginIcon />} 
-          onClick={() => handleNavigation(3, 'LogIn')} 
+          onClick={() => handleNavigation(3, '/')} 
         />
       </BottomNavigation>
     </Box>
