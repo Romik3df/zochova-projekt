@@ -1,12 +1,13 @@
 // src/app/layout.tsx
 
-import type { Metadata } from "next";
+import { Metadata } from "next";
 import "./globals.css";
-import NavBar from "@/components/NavBar";
+import Navbar from "../components/NavBar";
+import AuthProvider from "../components/AuthProvider";
 
 export const metadata: Metadata = {
-  title: "Instabenger",
-  description: "Bončoe",
+  title: "SnapZoška",
+  description: "ZochovaInt",
 };
 
 export default function RootLayout({
@@ -15,15 +16,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="sk">
       <body>
-        <div style={{minHeight: "100vh", display: "flex", flexDirection: "column"}}>
-          <main style={{ flexGrow: 1 }}>
-          {children}
-          </main>
-        </div>
-        <NavBar/>
+        <AuthProvider>
+          <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+            <main style={{ flexGrow: 1 }}>
+              {children}
+            </main>
+          </div>
+          <Navbar /> 
+        </AuthProvider>
       </body>
     </html>
   );
 }
+
+
