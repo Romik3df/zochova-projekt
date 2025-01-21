@@ -1,14 +1,16 @@
 // src/app/page.tsx
+'use client';
 
-
-import Typography from '@mui/material/Typography';
-
-export const metadata = { title: "Home | vlak"};
+import { useSession } from 'next-auth/react';
+import HomePagePrihlaseny from "../sections/HomePageNeprihlaseny";
+import HomePageNeprihlaseny from "../sections/HomePageNeprihlaseny";
 
 export default function Home() {
-  return (
-      <Typography> Home page</Typography>
-    
-  );
-}
+  const { data: session } = useSession();
 
+  if (session) {
+    return <HomePagePrihlaseny />;
+  } else {
+    return <HomePageNeprihlaseny />;
+  }
+}
