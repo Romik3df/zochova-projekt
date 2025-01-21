@@ -1,19 +1,16 @@
-// src/app/odhlasenie/page.tsx
+// src/app/auth/odhlasenie/page.tsx
 
 
+import Typography from "@mui/material/Typography";
+import Conrainer from "@mui/material/Container";
 
+export const metadata = { title: "Odhlásenie | ZoškaMeme" };
 
-import Typography from '@mui/material/FormLabel';
-import Container from '@mui/material/FormLabel';
+export default function Logout() {
 
-export const metadata = {title: "Odhlásenie | Zochova"};
-
-
-export default function LogoutList() {
   return (
-        <Container>
-            <Typography>Odhlásenie</Typography>
-        </Container>
-
+    <Conrainer>
+      <Typography> Odhlásenie </Typography>
+    </Conrainer>
   );
 }
